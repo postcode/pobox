@@ -1,0 +1,324 @@
+/* Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+/* Color Palette */
+/* Element Colors */
+/* Color classes */
+/* Typgraphy Variables */
+/* Headers */
+/* line 6, ../../scss/postcode/_typography.scss */
+h1 {
+  color: #58585b;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 38px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 13, ../../scss/postcode/_typography.scss */
+h2 {
+  color: #58585b;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 30px;
+}
+
+/* line 18, ../../scss/postcode/_typography.scss */
+h3 {
+  color: #58585b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 26px;
+}
+
+/* line 23, ../../scss/postcode/_typography.scss */
+h4 {
+  color: #58585b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* line 28, ../../scss/postcode/_typography.scss */
+h5 {
+  color: #58585b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* line 34, ../../scss/postcode/_typography.scss */
+h6 {
+  color: #58585b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* line 40, ../../scss/postcode/_typography.scss */
+p {
+  color: #58585b;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* line 45, ../../scss/postcode/_typography.scss */
+small {
+  font-size: 9px;
+  padding: 5px 10px 10px 0px;
+}
+
+/* line 50, ../../scss/postcode/_typography.scss */
+.heading {
+  border-bottom: 1px solid #58585b;
+  padding: 0px 0px 10px 0px;
+  margin: 40px 0px 20px 0px;
+}
+
+/* line 55, ../../scss/postcode/_typography.scss */
+.wht {
+  color: #FFF;
+}
+
+/* line 58, ../../scss/postcode/_typography.scss */
+.wht-background {
+  background: white;
+}
+
+/* line 61, ../../scss/postcode/_typography.scss */
+.citation {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 15px;
+}
+
+/* header variables */
+/* primary header */
+/* line 6, ../../scss/postcode/_navbar.scss */
+.top-bar {
+  background: #789fd3;
+}
+
+/* line 9, ../../scss/postcode/_navbar.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #789fd3;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* line 13, ../../scss/postcode/_navbar.scss */
+.top-bar-section ul li .active {
+  background: red;
+}
+
+/* sub headers */
+/* line 19, ../../scss/postcode/_navbar.scss */
+.second-bar {
+  background: #e6e7e8;
+}
+/* line 21, ../../scss/postcode/_navbar.scss */
+.second-bar .top-bar-section li:not(.has-form) a:not(.button) {
+  background: #e6e7e8;
+}
+/* line 24, ../../scss/postcode/_navbar.scss */
+.second-bar .top-bar-section li:not(.has-form) a:hover {
+  background: #FFF;
+  color: #58585b;
+  border-bottom: none;
+}
+/* line 30, ../../scss/postcode/_navbar.scss */
+.second-bar .name h1 a {
+  color: #58585b;
+}
+/* line 33, ../../scss/postcode/_navbar.scss */
+.second-bar ul li a {
+  color: #58585b;
+}
+
+/* line 1, ../../scss/postcode/_errorpages.scss */
+.forofor-error {
+  background-image: url(../img/missing_phones.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #58585b;
+  padding: 150px;
+}
+/* line 9, ../../scss/postcode/_errorpages.scss */
+.forofor-error h1 {
+  font-size: 60px;
+}
+
+/* line 15, ../../scss/postcode/_errorpages.scss */
+.fivehundred-error {
+  background-image: url(../img/car_mechanic.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #58585b;
+  padding: 150px;
+}
+/* line 23, ../../scss/postcode/_errorpages.scss */
+.fivehundred-error h1 {
+  font-size: 60px;
+}
+/* line 26, ../../scss/postcode/_errorpages.scss */
+.fivehundred-error p {
+  margin: 40px 0px 40px 0px;
+}
+
+/* line 3, ../../scss/postcode/_footer.scss */
+.footer {
+  background-color: #e6e7e8;
+  padding: 30px 0px 40px 0px;
+}
+
+/* line 8, ../../scss/postcode/_footer.scss */
+.footer p {
+  color: #58585b;
+  font-weight: 200;
+  margin: 0px 0px 2px 0px;
+  padding: 0px;
+}
+
+/* line 14, ../../scss/postcode/_footer.scss */
+.footer h6 {
+  color: #58585b;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* line 21, ../../scss/postcode/_footer.scss */
+.footer a:link {
+  color: #58585b;
+  font-weight: 200;
+}
+/* line 25, ../../scss/postcode/_footer.scss */
+.footer a:hover {
+  border: none;
+  color: #58585b;
+}
+/* line 30, ../../scss/postcode/_footer.scss */
+.footer img {
+  width: 75px;
+}
+
+/* Apps & Websites */
+/* line 14, ../../scss/postcode/postcode_main.scss */
+.postcode .primary {
+  background: #86cbd9;
+}
+
+/* line 17, ../../scss/postcode/postcode_main.scss */
+.postcode .secondary {
+  background: #58585b;
+}
+
+/* line 20, ../../scss/postcode/postcode_main.scss */
+.postcode .tertiary {
+  background: #e6e7e8;
+}
+
+/* line 27, ../../scss/postcode/postcode_main.scss */
+.promptly .primary {
+  background: #789fd3;
+}
+
+/* line 30, ../../scss/postcode/postcode_main.scss */
+.promptly .secondary {
+  background: #eea758;
+}
+
+/* line 36, ../../scss/postcode/postcode_main.scss */
+.recordtrac .primary {
+  background: #ec916f;
+}
+
+/* line 39, ../../scss/postcode/postcode_main.scss */
+.recordtrac .secondary {
+  background: #86cdb2;
+}
+
+/* line 45, ../../scss/postcode/postcode_main.scss */
+.cityvoice .primary {
+  background: #86cdb2;
+}
+
+/* line 48, ../../scss/postcode/postcode_main.scss */
+.cityvoice .secondary {
+  background: #edd364;
+}
+
+/* Links */
+/* line 53, ../../scss/postcode/postcode_main.scss */
+a:link {
+  color: #86cbd9;
+}
+
+/* line 56, ../../scss/postcode/postcode_main.scss */
+a:visited {
+  color: #86cbd9;
+}
+
+/* line 59, ../../scss/postcode/postcode_main.scss */
+a:hover {
+  border-bottom: 1px solid #86cbd9;
+  color: #86cbd9;
+}
+
+/* line 63, ../../scss/postcode/postcode_main.scss */
+a:active {
+  color: #86cbd9;
+}
+
+/* line 67, ../../scss/postcode/postcode_main.scss */
+.wht a:link {
+  color: #FFF;
+}
+/* line 70, ../../scss/postcode/postcode_main.scss */
+.wht a:visited {
+  color: #FFF;
+}
+/* line 73, ../../scss/postcode/postcode_main.scss */
+.wht a:hover {
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+}
+/* line 77, ../../scss/postcode/postcode_main.scss */
+.wht a:active {
+  color: #FFF;
+}
+
+/* line 81, ../../scss/postcode/postcode_main.scss */
+.drk a:link {
+  color: #58585B;
+}
+
+/* line 84, ../../scss/postcode/postcode_main.scss */
+.drk a:visited {
+  color: #58585b;
+}
+
+/* line 87, ../../scss/postcode/postcode_main.scss */
+.drk a:hover {
+  color: #58585b;
+  border-bottom: 1px solid #58585b;
+}
+
+/* line 91, ../../scss/postcode/postcode_main.scss */
+.drk a:active {
+  color: #58585b;
+}
+
+/* Buttons */
+/* line 96, ../../scss/postcode/postcode_main.scss */
+.button {
+  color: white;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0em 0em .5em 0em;
+}
+
+/* line 101, ../../scss/postcode/postcode_main.scss */
+.button:visited {
+  color: white;
+}
