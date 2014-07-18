@@ -135,7 +135,7 @@ small {
 
 /* line 1, ../../scss/postcode/_errorpages.scss */
 .forofor-error {
-  background-image: url(../img/missing_phones.jpg);
+  background-image: url(http://pure-garden-9104.herokuapp.com/images/missing_phones.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -150,7 +150,7 @@ small {
 
 /* line 15, ../../scss/postcode/_errorpages.scss */
 .fivehundred-error {
-  background-image: url(../img/car_mechanic.jpg);
+  background-image: url(http://pure-garden-9104.herokuapp.com/images/car_mechanic.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
