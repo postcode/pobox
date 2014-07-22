@@ -7,16 +7,16 @@ We use this to serve static assets to our applications. The assets themselves ar
 ### How to use:
 In your application point your css, js, images to the hosted version of the files. This is setup as a Heroku app:
 
-[http://pure-garden-9104.herokuapp.com/](http://pure-garden-9104.herokuapp.com/)
+[http://pobox.herokuapp.com/](http://pobox.herokuapp.com/)
 
 So to use the main css file in your app do this:
 
 ```html
-<link href='http://pure-garden-9104.herokuapp.com/css/postcode_main.css' rel='stylesheet' type='text/css'>
+<link href='http://pobox.herokuapp.com/css/postcode_main.css' rel='stylesheet' type='text/css'>
 ```
 
 Or the PostCode image:
 
 ```html
-<img src="http://pure-garden-9104.herokuapp.com/images/postcode_logo_blue.png">
+<img src="http://pobox.herokuapp.com/images/postcode_logo_blue.png">
 ```
