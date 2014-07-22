@@ -1,5 +1,5 @@
 # PO Box
-## This is where we store our common assets, i.e. stylesheets, javascript, and images.
+__This is where we store our common assets, i.e. stylesheets, javascript, and images.__
 
 ### What this is:
 We use this to serve static assets to our applications. The assets themselves are generated using our [styleguide](https://github.com/postcode/styleguide). Once changes are made to the styleguide you can push the generated css into this repository. All the applications that link to postcode_main.css will pull in the new styles. Easy!
@@ -17,6 +17,6 @@ So to use the main css file in your app do this:
 
 Or the PostCode image:
 
-```
+```html
 <img src="http://pure-garden-9104.herokuapp.com/images/postcode_logo_blue.png">
 ```
