@@ -74,16 +74,24 @@ small {
 }
 
 /* line 55, ../../scss/postcode/_typography.scss */
+.lg-quote {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  padding: 0px 0px 20px 0px;
+}
+
+/* line 61, ../../scss/postcode/_typography.scss */
 .wht {
   color: #FFF;
 }
 
-/* line 58, ../../scss/postcode/_typography.scss */
+/* line 64, ../../scss/postcode/_typography.scss */
 .wht-background {
   background: white;
 }
 
-/* line 61, ../../scss/postcode/_typography.scss */
+/* line 67, ../../scss/postcode/_typography.scss */
 .citation {
   position: fixed;
   right: 0;
