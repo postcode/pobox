@@ -324,7 +324,7 @@ a:active {
 }
 
 /* line 105, ../../scss/postcode/postcode_main.scss */
-body .promptly .landing {
+body .promptly-landing {
   background-image: url("http://pobox.herokuapp.com/images/landing_background_optimized.jpg");
   background-color: #789FD3;
 }
@@ -345,7 +345,7 @@ body .promptly .landing {
 .promptly .button {
   background: #EEA758;
 }
-/* line 121, ../../scss/postcode/postcode_main.scss */
+/* line 120, ../../scss/postcode/postcode_main.scss */
 .promptly .button:hover {
   background: #f19b3b;
   color: #FFF;
