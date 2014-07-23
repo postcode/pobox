@@ -111,25 +111,25 @@ small {
 
 /* sub headers */
 /* line 19, ../../scss/postcode/_navbar.scss */
-.second-bar {
+.promptly-sub-nav {
   background: #e6e7e8;
 }
 /* line 21, ../../scss/postcode/_navbar.scss */
-.second-bar .top-bar-section li:not(.has-form) a:not(.button) {
+.promptly-sub-nav .top-bar-section li:not(.has-form) a:not(.button) {
   background: #e6e7e8;
 }
 /* line 24, ../../scss/postcode/_navbar.scss */
-.second-bar .top-bar-section li:not(.has-form) a:hover {
+.promptly-sub-nav .top-bar-section li:not(.has-form) a:hover {
   background: #FFF;
   color: #58585b;
   border-bottom: none;
 }
 /* line 30, ../../scss/postcode/_navbar.scss */
-.second-bar .name h1 a {
+.promptly-sub-nav .name h1 a {
   color: #58585b;
 }
 /* line 33, ../../scss/postcode/_navbar.scss */
-.second-bar ul li a {
+.promptly-sub-nav ul li a {
   color: #58585b;
 }
 
@@ -321,4 +321,33 @@ a:active {
 /* line 101, ../../scss/postcode/postcode_main.scss */
 .button:visited {
   color: white;
+}
+
+/* line 105, ../../scss/postcode/postcode_main.scss */
+body .promptly .landing {
+  background-image: url("http://pobox.herokuapp.com/images/landing_background_optimized.jpg");
+  background-color: #789FD3;
+}
+
+/* line 110, ../../scss/postcode/postcode_main.scss */
+.promptly {
+  /* promptly buttons */
+}
+/* line 111, ../../scss/postcode/postcode_main.scss */
+.promptly .landing-title {
+  margin: 45px 0px 85px 0px;
+}
+/* line 114, ../../scss/postcode/postcode_main.scss */
+.promptly .landing-footer {
+  margin-top: 100px;
+}
+/* line 118, ../../scss/postcode/postcode_main.scss */
+.promptly .button {
+  background: #EEA758;
+}
+/* line 121, ../../scss/postcode/postcode_main.scss */
+.promptly .button:hover {
+  background: #f19b3b;
+  color: #FFF;
+  border-bottom: 1px solid #E6E7E8;
 }
